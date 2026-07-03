@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+#buscador {
+  margin: 20px 0;
+}
+
+#input-raza {
+  padding: 8px;
+  width: 200px;
+}
+
+#btn-buscar {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#contenedor-resultados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+#contenedor-resultados img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
