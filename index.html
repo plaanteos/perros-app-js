@@ -6,15 +6,17 @@
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+  <main class="app">
+    <h1>App de perros</h1>
+    <p class="descripcion">Buscá una raza y obtené fotos reales desde la Dog API.</p>
 
-  <h1>App de perros</h1>
+    <div id="buscador">
+      <input type="text" id="input-raza" placeholder="Ingresá una raza">
+      <button id="btn-buscar">Buscar</button>
+    </div>
 
-  <div id="buscador">
-    <input type="text" id="input-raza" placeholder="Ingrese raza">
-    <button id="btn-buscar">Buscar</button>
-  </div>
-
-  <div id="contenedor-resultados"></div>
+    <div id="contenedor-resultados"></div>
+  </main>
 
   <script src="script.js"></script>
 </body>
